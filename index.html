@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAWCAR - Преміум Детейлінг</title>
+    <meta name="description"
+        content="LAWCAR - професійний детейлінг автомобілів. Передові технології, преміум захист, індивідуальний підхід.">
+
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="assets/Black and Red Modern Automotive Car Logo (512 x 512 пікс.) (512 x 266 пікс.).png"
+                    alt="LAWCAR" class="logo-img">
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">Про нас</a></li>
+                    <li><a href="#services" class="nav-link">Послуги</a></li>
+                    <li><a href="#works" class="nav-link">Наші роботи</a></li>
+                    <li><a href="#reviews" class="nav-link">Відгуки</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Telegram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 2L11 13" />
+                            <path d="M22 2L15 22L11 13L2 9L22 2Z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="WhatsApp">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Language Switcher -->
+                <div class="lang-wrapper">
+                    <button class="lang-switcher">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M2 12h20" />
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                        <span>UK</span>
+                    </button>
+                    <div class="lang-dropdown">
+                        <button class="lang-option" data-lang="uk">🇺🇦 Українська</button>
+                        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                        <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Large Background Text -->
+        <div class="hero-bg-text">DETAILING</div>
+
+        <!-- Centered Car -->
+        <div class="hero-car-wrapper">
+            <img src="assets/lamborghini-aventador-6589974_1280.png" alt="Lamborghini Aventador" class="hero-car-img">
+        </div>
+
+        <!-- Floating Price Tags -->
+        <div class="price-tag tag-1">
+            <span class="tag-label">Мийка від</span>
+            <span class="tag-price">30€</span>
+        </div>
+        <div class="price-tag tag-2">
+            <span class="tag-label">Хімчистка від</span>
+            <span class="tag-price">100€</span>
+        </div>
+        <div class="price-tag tag-3">
+            <span class="tag-label">Полірування від</span>
+            <span class="tag-price">200€</span>
+        </div>
+
+        <!-- Marquee at Bottom -->
+        <div class="hero-marquee">
+            <div class="marquee-track">
+                <span class="marquee-text solid">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text outline">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text solid">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text outline">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text solid">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text outline">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <!-- Duplicate for seamless loop -->
+                <span class="marquee-text solid">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text outline">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text solid">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text outline">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text solid">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+                <span class="marquee-text outline">LAWCAR</span>
+                <span class="marquee-dot">•</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-left">
+                    <div class="about-card large">
+                        <div class="about-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                                <path d="M2 17l10 5 10-5" />
+                                <path d="M2 12l10 5 10-5" />
+                            </svg>
+                        </div>
+                        <h3 class="about-card-title">Передові технології</h3>
+                        <p class="about-card-text">Використовуємо найсучасніше обладнання та матеріали світових брендів
+                            для досягнення ідеального результату.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                        </div>
+                        <h3 class="about-card-title">Комплексний підхід</h3>
+                        <p class="about-card-text">Детально опрацьовуємо кожен елемент автомобіля, від кузова до
+                            найменших деталей інтер'єру.</p>
+                    </div>
+                </div>
+                <div class="about-center">
+                    <div class="vertical-line">
+                        <div class="line-glow"></div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                        </div>
+                        <h3 class="about-card-title">Захист преміум-класу</h3>
+                        <p class="about-card-text">Професійні захисні покриття, що зберігають вигляд вашого авто на
+                            роки.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                                <circle cx="12" cy="7" r="4" />
+                            </svg>
+                        </div>
+                        <h3 class="about-card-title">Індивідуальні рішення</h3>
+                        <p class="about-card-text">Ми враховуємо тип кузова, колір, покриття та ваш стиль керування.
+                            Детейлінг — під вас, не шаблон.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Наші <span class="text-accent">послуги</span></h2>
+
+            <!-- Service Cards - 3 Main Services -->
+            <div class="services-grid">
+                <!-- Мийка -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon-wrapper">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path
+                                    d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+                                <circle cx="12" cy="12" r="4" />
+                            </svg>
+                        </div>
+                        <h3 class="service-name">Мийка</h3>
+                    </div>
+                    <p class="service-desc">Професійна зовнішня мийка автомобіля з використанням безконтактної піни та
+                        ручного миття. Дбайливо очищуємо кузов, диски, арки та скло.</p>
+                    <div class="service-footer">
+                        <div class="service-price">
+                            <span class="price-from">від</span>
+                            <span class="price-value">30€</span>
+                        </div>
+                        <a href="#contact" class="service-order">
+                            Замовити
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Хімчистка -->
+                <div class="service-card featured">
+                    <div class="service-badge">Популярна</div>
+                    <div class="service-card-header">
+                        <div class="service-icon-wrapper">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M3 6l3 1 3-1 3 1 3-1 3 1 3-1v14l-3 1-3-1-3 1-3-1-3 1-3-1V6z" />
+                                <path d="M3 10h18M3 14h18M3 18h18" />
+                            </svg>
+                        </div>
+                        <h3 class="service-name">Хімчистка</h3>
+                    </div>
+                    <p class="service-desc">Глибоке очищення салону: сидіння, килимки, стеля, пластикові панелі.
+                        Видаляємо плями, запахи та бруд. Використовуємо професійну хімію Koch Chemie.</p>
+                    <div class="service-footer">
+                        <div class="service-price">
+                            <span class="price-from">від</span>
+                            <span class="price-value">100€</span>
+                        </div>
+                        <a href="#contact" class="service-order">
+                            Замовити
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Полірування -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon-wrapper">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <polygon
+                                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                            </svg>
+                        </div>
+                        <h3 class="service-name">Полірування</h3>
+                    </div>
+                    <p class="service-desc">Відновлення блиску лакофарбового покриття. Видаляємо подряпини, потертості
+                        та голограми. Наносимо захисний шар для тривалого ефекту.</p>
+                    <div class="service-footer">
+                        <div class="service-price">
+                            <span class="price-from">від</span>
+                            <span class="price-value">200€</span>
+                        </div>
+                        <a href="#contact" class="service-order">
+                            Замовити
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2 class="section-title">Як ми <span class="text-accent">працюємо</span></h2>
+
+            <div class="process-steps">
+                <!-- Step 1 -->
+                <div class="process-step">
+                    <div class="step-number">
+                        <span>01</span>
+                        <div class="step-line"></div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Запис і консультація</h3>
+                        <p class="step-text">Зв'яжіться з нами для безкоштовної консультації. Ми підберемо оптимальний
+                            пакет послуг саме для вашого авто.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="process-step">
+                    <div class="step-number">
+                        <span>02</span>
+                        <div class="step-line"></div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Обслуговування</h3>
+                        <p class="step-text">Наші майстри виконують всі роботи з максимальною увагою до деталей,
+                            використовуючи преміум матеріали.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="process-step">
+                    <div class="step-number">
+                        <span>03</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Результат</h3>
+                        <p class="step-text">Отримайте свій автомобіль у ідеальному стані. Ми гарантуємо якість та
+                            надаємо рекомендації по догляду.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="faq-layout">
+                <div class="faq-header">
+                    <h2 class="section-title">Питання, які ставлять <span class="text-accent">найчастіше</span></h2>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Скільки часу займає детейлінг?</span>
+                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Час виконання залежить від обраного пакету послуг. Базова мийка займає 1-2 години,
+                                стандартний пакет — 3-4 години, а преміум детейлінг може тривати від 6 до 8 годин для
+                                досягнення ідеального результату.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Чим відрізняються пакети послуг?</span>
+                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Базовий пакет включає зовнішню мийку та базове очищення. Стандарт додає догляд за
+                                дисками, воскування та прибирання салону. Преміум — це повний комплекс з глибокою
+                                очисткою, полірування та довготривалим захисним покриттям.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Як записатися на обслуговування?</span>
+                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Записатися можна через форму на сайті, зателефонувавши нам або написавши в Telegram чи
+                                WhatsApp. Ми відповідаємо протягом 30 хвилин у робочий час.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Яку хімію ви використовуєте?</span>
+                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ми працюємо виключно з сертифікованою професійною хімією від провідних світових брендів:
+                                Koch Chemie, Gyeon, CarPro та інших. Всі засоби безпечні для лакофарбового покриття та
+                                екологічні.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Чи можна залишити авто на ніч?</span>
+                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Так, у нас є охоронювана територія, де ви можете залишити автомобіль на час виконання
+                                робіт або на ніч. Це особливо зручно для преміум-детейлінгу, який потребує тривалого
+                                часу.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-contact">
+                        <h3 class="footer-title">Зв'язатися з нами</h3>
+                        <div class="contact-socials">
+                            <a href="#" class="contact-social">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="contact-social">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="contact-social">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="contact-phones">
+                            <a href="tel:+380987654321" class="contact-phone">+38 098 765 43 21</a>
+                            <a href="tel:+498765432109" class="contact-phone">+49 876 543 21 09</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-form">
+                        <h3 class="footer-title">Записатися</h3>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-input" placeholder="Ваше ім'я" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-input" placeholder="Телефон" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-input" placeholder="Яке у вас авто?" required>
+                            </div>
+                            <button type="submit" class="form-submit">
+                                Надіслати
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Хочеш чисте авто?</h2>
+                    <a href="#contact" class="cta-button">
+                        <span>Записатися</span>
+                        <svg class="cta-arrow" width="80" height="80" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">© 2024 LAWCAR. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
